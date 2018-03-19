@@ -1,0 +1,2 @@
+enrichment_plugin:
+  BINARYDEFENSE_IP_SOURCE: https://www.binarydefense.com/banlist.txt
