@@ -12,6 +12,16 @@ Note that this is for public use only.
 #### Binary Defense IP feed
 This feed contains Binary Defense Systems Artillery Threat Intelligence feed and banlist feed
 
+### PRE-REQUISITES to use Binary Defense IP feed API and DNIF  
+Outbound access required to request Binary Defense IP feed API 
+
+| Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
+|:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
+| TCP | AD,A10 | Any | Egress	| github.com | 443 |
+| TCP | AD,A10 | Any | Egress	| www.binarydefense.com | 443 | 
+
+
+
 ### Using the Binary Defense feed API
  The Binary Defense feed API is found on github at
 
