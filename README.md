@@ -18,7 +18,7 @@ Outbound access required to request Binary Defense IP feed API
 | Protocol   | Source IP  | Source Port  | Direction	 | Destination Domain | Destination Port  |  
 |:------------- |:-------------|:-------------|:-------------|:-------------|:-------------|  
 | TCP | AD,A10 | Any | Egress	| github.com | 443 |
-| TCP | AD,A10 | Any | Egress	| www.binarydefense.com | 443 | 
+| TCP | AD,A10 | Any | Egress	| binarydefense.com | 443 | 
 
 
 
